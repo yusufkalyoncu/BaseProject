@@ -9,9 +9,17 @@
   <ItemGroup>
     <None Remove="Entities\" />
     <None Remove="Entities\Common\" />
+    <None Remove="Entities\Identity\" />
+    <None Remove="ValueObjects\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Entities\Common\" />
+    <Folder Include="Entities\Identity\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.12" />
   </ItemGroup>
 </Project>

@@ -9,4 +9,68 @@
   <ItemGroup>
     <ProjectReference Include="..\BaseProject.Domain\BaseProject.Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\TestRepository\" />
+    <None Remove="Validators\" />
+    <None Remove="Behaviors\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Exceptions\Commons\" />
+    <None Remove="Abstractions\" />
+    <None Remove="Abstractions\TokenAbstractions\" />
+    <None Remove="Constants\" />
+    <None Remove="Features\" />
+    <None Remove="Features\Commands\" />
+    <None Remove="Features\Queries\" />
+    <None Remove="Features\Commands\AuthCommands\" />
+    <None Remove="Features\Queries\AuthQueries\" />
+    <None Remove="Features\Commands\AuthCommands\UserRegister\" />
+    <None Remove="Features\Commands\AuthCommands\UserLogin\" />
+    <None Remove="Exceptions\AuthExceptions\" />
+    <None Remove="Abstractions\UserAbstractions\" />
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\TokenDto\" />
+    <None Remove="DTOs\UserDto\" />
+    <None Remove="DTOs\AuthenticationDto\" />
+    <None Remove="Mappers\" />
+    <None Remove="Abstractions\AuthAbstractions\" />
+    <None Remove="Features\Commands\AuthCommands\RefreshToken\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\TestRepository\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Exceptions\Commons\" />
+    <Folder Include="Abstractions\" />
+    <Folder Include="Abstractions\TokenAbstractions\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+    <Folder Include="Features\Commands\AuthCommands\" />
+    <Folder Include="Features\Queries\AuthQueries\" />
+    <Folder Include="Features\Commands\AuthCommands\UserRegister\" />
+    <Folder Include="Features\Commands\AuthCommands\UserLogin\" />
+    <Folder Include="Exceptions\AuthExceptions\" />
+    <Folder Include="Abstractions\UserAbstractions\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\TokenDto\" />
+    <Folder Include="DTOs\UserDto\" />
+    <Folder Include="DTOs\AuthenticationDto\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Abstractions\AuthAbstractions\" />
+    <Folder Include="Features\Commands\AuthCommands\RefreshToken\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="FluentValidation" Version="11.8.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
 </Project>
